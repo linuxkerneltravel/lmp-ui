@@ -1,0 +1,84 @@
+26-Oct-2020 10:55:07.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.59
+26-Oct-2020 10:55:07.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 16:57:18 UTC
+26-Oct-2020 10:55:07.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.59.0
+26-Oct-2020 10:55:07.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Oct-2020 10:55:07.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-96-generic
+26-Oct-2020 10:55:07.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Oct-2020 10:55:07.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/jdk1.8.0_211/jre
+26-Oct-2020 10:55:07.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_211-b12
+26-Oct-2020 10:55:07.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Oct-2020 10:55:07.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/zcy/Desktop/web-tomcat
+26-Oct-2020 10:55:07.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/zcy/Desktop/web-tomcat
+26-Oct-2020 10:55:07.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/zcy/Desktop/web-tomcat/conf/logging.properties
+26-Oct-2020 10:55:07.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Oct-2020 10:55:07.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Oct-2020 10:55:07.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Oct-2020 10:55:07.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Oct-2020 10:55:07.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Oct-2020 10:55:07.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/zcy/Desktop/web-tomcat
+26-Oct-2020 10:55:07.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/zcy/Desktop/web-tomcat
+26-Oct-2020 10:55:07.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/zcy/Desktop/web-tomcat/temp
+26-Oct-2020 10:55:07.073 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Oct-2020 10:55:07.496 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Oct-2020 10:55:07.556 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Oct-2020 10:55:07.574 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1510 ms
+26-Oct-2020 10:55:07.619 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Oct-2020 10:55:07.619 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.59
+26-Oct-2020 10:55:07.636 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zcy/Desktop/web-tomcat/webapps/docs]
+26-Oct-2020 10:55:07.956 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zcy/Desktop/web-tomcat/webapps/docs] has finished in [319] ms
+26-Oct-2020 10:55:07.957 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zcy/Desktop/web-tomcat/webapps/manager]
+26-Oct-2020 10:55:08.008 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zcy/Desktop/web-tomcat/webapps/manager] has finished in [50] ms
+26-Oct-2020 10:55:08.008 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zcy/Desktop/web-tomcat/webapps/host-manager]
+26-Oct-2020 10:55:08.030 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zcy/Desktop/web-tomcat/webapps/host-manager] has finished in [22] ms
+26-Oct-2020 10:55:08.031 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zcy/Desktop/web-tomcat/webapps/lmp]
+26-Oct-2020 10:55:08.071 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zcy/Desktop/web-tomcat/webapps/lmp] has finished in [41] ms
+26-Oct-2020 10:55:08.071 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zcy/Desktop/web-tomcat/webapps/ROOT]
+26-Oct-2020 10:55:08.129 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zcy/Desktop/web-tomcat/webapps/ROOT] has finished in [58] ms
+26-Oct-2020 10:55:08.130 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zcy/Desktop/web-tomcat/webapps/examples]
+26-Oct-2020 10:55:08.350 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zcy/Desktop/web-tomcat/webapps/examples] has finished in [220] ms
+26-Oct-2020 10:55:08.352 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Oct-2020 10:55:08.381 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 806 ms
+26-Oct-2020 11:52:55.893 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Oct-2020 11:52:55.976 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Oct-2020 11:52:56.054 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Oct-2020 11:52:56.056 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Oct-2020 12:01:24.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.59
+26-Oct-2020 12:01:24.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 16:57:18 UTC
+26-Oct-2020 12:01:24.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.59.0
+26-Oct-2020 12:01:24.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+26-Oct-2020 12:01:24.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-96-generic
+26-Oct-2020 12:01:24.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Oct-2020 12:01:24.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/jdk1.8.0_211/jre
+26-Oct-2020 12:01:24.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_211-b12
+26-Oct-2020 12:01:24.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Oct-2020 12:01:24.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/zcy/Desktop/web-tomcat
+26-Oct-2020 12:01:24.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/zcy/Desktop/web-tomcat
+26-Oct-2020 12:01:24.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/zcy/Desktop/web-tomcat/conf/logging.properties
+26-Oct-2020 12:01:24.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Oct-2020 12:01:24.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Oct-2020 12:01:24.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Oct-2020 12:01:24.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Oct-2020 12:01:24.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Oct-2020 12:01:24.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/zcy/Desktop/web-tomcat
+26-Oct-2020 12:01:24.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/zcy/Desktop/web-tomcat
+26-Oct-2020 12:01:24.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/zcy/Desktop/web-tomcat/temp
+26-Oct-2020 12:01:24.108 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Oct-2020 12:01:24.371 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Oct-2020 12:01:24.390 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Oct-2020 12:01:24.408 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 836 ms
+26-Oct-2020 12:01:24.448 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Oct-2020 12:01:24.448 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.59
+26-Oct-2020 12:01:24.472 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zcy/Desktop/web-tomcat/webapps/docs]
+26-Oct-2020 12:01:24.780 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zcy/Desktop/web-tomcat/webapps/docs] has finished in [296] ms
+26-Oct-2020 12:01:24.780 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zcy/Desktop/web-tomcat/webapps/manager]
+26-Oct-2020 12:01:24.928 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zcy/Desktop/web-tomcat/webapps/manager] has finished in [148] ms
+26-Oct-2020 12:01:24.928 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zcy/Desktop/web-tomcat/webapps/host-manager]
+26-Oct-2020 12:01:24.945 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zcy/Desktop/web-tomcat/webapps/host-manager] has finished in [17] ms
+26-Oct-2020 12:01:24.945 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zcy/Desktop/web-tomcat/webapps/lmp]
+26-Oct-2020 12:01:25.010 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zcy/Desktop/web-tomcat/webapps/lmp] has finished in [64] ms
+26-Oct-2020 12:01:25.010 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zcy/Desktop/web-tomcat/webapps/ROOT]
+26-Oct-2020 12:01:25.023 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zcy/Desktop/web-tomcat/webapps/ROOT] has finished in [13] ms
+26-Oct-2020 12:01:25.023 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/zcy/Desktop/web-tomcat/webapps/examples]
+26-Oct-2020 12:01:25.284 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/zcy/Desktop/web-tomcat/webapps/examples] has finished in [261] ms
+26-Oct-2020 12:01:25.289 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Oct-2020 12:01:25.299 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 890 ms
